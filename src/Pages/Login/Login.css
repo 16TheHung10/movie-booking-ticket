@@ -1,0 +1,17 @@
+.login-btn {
+  background: #000000;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-shadow: 0 0.6em #b0050f, 0 0.9em rgb(0 0 0 / 5%);
+  border: 2px solid #b1060f;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  position: relative;
+}
+.login-btn:active {
+  top: 0.5em;
+  box-shadow: 0 0.2em #d03613, 0 0.5em rgba(0, 0, 0, 0.4);
+}

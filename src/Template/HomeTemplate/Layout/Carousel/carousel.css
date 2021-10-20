@@ -1,0 +1,43 @@
+/*
+@media screen and (max-width: 970px) {
+  .carousel-img {
+    height: 500px !important;
+  }
+}
+
+ */
+.ant-carousel .slick-dots-bottom {
+  bottom: 77px !important;
+}
+@media screen and (max-width: 1170px) {
+  .carousel-img {
+  }
+  .carousel-overlay {
+    height: 45vw !important;
+    margin: 8% auto !important;
+  }
+}
+@media screen and (max-width: 760px) {
+  .carousel-overlay {
+    margin: 13% auto !important;
+  }
+  .carousel-img {
+    height: 54vw !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .carousel-img {
+    height: 60vw !important;
+  }
+  .carousel-overlay {
+    margin: 17% auto !important;
+  }
+}
+@media screen and (max-width: 470px) {
+  .carousel-img {
+    display: none !important;
+  }
+  .carousel-overlay {
+    display: none !important;
+  }
+}

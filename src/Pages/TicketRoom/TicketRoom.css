@@ -1,0 +1,138 @@
+.main-checkout {
+  background: url("https://3.bp.blogspot.com/-5ghTe2qNcaU/XI51rMSID2I/AAAAAAAAAts/tEJgwBLsRIYq4d8-g3By3Eztfhqew6aYACKgBGAs/w1920-h1080-c/avengers-endgame-characters-uhdpaper.com-4K-49.jpg")
+    fixed !important;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.glass-ticket-room {
+  top: 2%;
+  padding: 20px;
+  background: inherit !important;
+  z-index: 1;
+  height: 96vh;
+  width: 94%;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+  position: relative;
+}
+.glass-ticket-room::before {
+  content: "";
+  z-index: -1;
+  border-radius: 14px;
+
+  background: inherit !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: -40px;
+  box-shadow: inset 0 0 0 200px rgba(82, 79, 79, 0.263);
+  filter: blur(30px);
+
+  position: absolute;
+}
+.glass-ticket-room2 {
+  top: 2%;
+  padding: 20px;
+  background: inherit !important;
+  z-index: 1;
+  height: 96vh;
+  width: 100%;
+  overflow: hidden;
+  margin: auto 20px auto auto;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+  position: relative;
+}
+.glass-ticket-room2::before {
+  content: "";
+  z-index: -1;
+  border-radius: 14px;
+
+  background: inherit !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: -40px;
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+  filter: blur(12px);
+
+  position: absolute;
+}
+.dat-ve {
+  background: #34d399;
+  color: #ffd100;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-shadow: 0 0.6em #b0a505, 0 0.9em rgb(0 0 0 / 5%);
+  border: 2px solid #ffd100;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  position: relative;
+}
+.dat-ve:active {
+  top: 0.5em;
+  box-shadow: 0 0.2em #ffd100, 0 0.5em rgba(0, 0, 0, 0.4);
+}
+.monitor {
+  border-bottom: 87px solid #5c5d7c5c;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 100%;
+}
+.ghe {
+  /* background-color: white; */
+  width: 40.4px;
+  height: 35px;
+  color: black;
+  margin: 10px;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-shadow: 0 0.4em #c4b9ba, 0 0.9em rgb(0 0 0 / 5%);
+  /* border: 2px solid #b1060f; */
+  position: relative;
+}
+.ghe:active {
+  top: 0.5em;
+  box-shadow: 0 0.2em #a0b4ee, 0 0.5em rgba(0, 0, 0, 0.4);
+}
+.icon-crow {
+  top: -33%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+  color: gold;
+}
+.ghe-da-dat {
+  cursor: not-allowed;
+  background: grey;
+  color: rgba(255, 255, 255, 0.119);
+}
+.ghe-da-chon {
+  background: #1f4474;
+  padding: 5px 20px;
+  border-radius: 8px;
+  margin-right: 20px;
+  position: relative;
+
+  margin-bottom: 10px;
+  transition: all 0.5s;
+  color: white;
+}
+.ghe-da-chon:active {
+  top: 0.3em;
+}
+.ghe-da-chon:hover {
+  transform: scale(1.1);
+}
+.ghe-dang-dat {
+  background: #a0b4ee;
+}

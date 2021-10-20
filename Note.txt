@@ -1,0 +1,3 @@
+util là folder chứa các tham số của HỆ THỐNG
+service là những gì kết nối với backend ( mấy cái bữa thấy .put.post... mà không cần gọi axios là bắt nguồn từ đây)
+Nên viết service theo tab giống như trên swagger đã phân. để từ đó có thể dễ dàng theo dõi code hơn

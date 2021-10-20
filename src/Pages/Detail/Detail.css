@@ -1,0 +1,38 @@
+.over-lay {
+  height: 100%;
+  background: linear-gradient(0deg, rgb(8 27 39) 10%, rgb(8 27 39 / 20%) 100%);
+  transform: translateY(4%);
+}
+.status {
+  background-color: #00ac4d;
+  padding: 0px 7px;
+  margin-right: 10px;
+  border-radius: 7px;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.danh-gia-bg {
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  border-radius: 50%;
+  filter: blur(-2px);
+  background: linear-gradient(
+    135deg,
+    rgb(255 255 255 / 0%),
+    rgb(255 255 255 / 0%)
+  );
+  filter: blur(2px);
+  border: 1px solid #00000045;
+  box-shadow: 0 8px 32px 0 #00000082;
+}
+.danh-gia-num {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
